@@ -1,5 +1,6 @@
 require 'redmine'
 
+require_dependency 'mobile_user_agent'
 require 'mobile_layout_hook'
 
 Redmine::Plugin.register :redmine_mobile do
