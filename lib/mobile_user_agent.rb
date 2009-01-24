@@ -22,7 +22,7 @@ class MobileUserAgent
     when :iphone
       return 'iphone'
     else
-      return ''
+      return 'mobile'
     end
   end
 end
