@@ -1,5 +1,7 @@
 require 'redmine'
 
+require 'mobile_layout_hook'
+
 Redmine::Plugin.register :redmine_mobile do
   name 'Mobile plugin'
   author 'Eric Davis'
